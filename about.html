@@ -44,6 +44,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Ambrose Anaya's Interpreter Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .photo-card {
+            transition: transform 0.3s ease;
+        }
+        .photo-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <header class="bg-teal-700 text-white text-center py-6">
@@ -64,15 +72,25 @@
     <main class="max-w-4xl mx-auto p-6">
         <section>
             <h2 class="text-2xl font-semibold text-teal-700">About Ambrose Anaya</h2>
-            <div class="flex flex-col md:flex-row items-center mt-6">
-                <img src="images/headshot.jpg" alt="Ambrose Anaya headshot" class="w-48 h-48 rounded-full mb-4 md:mb-0 md:mr-6">
-                <div>
-                    <p class="text-gray-700">
-                        I’m a dedicated student at College of the Sequoias, pursuing a career in American Sign Language (ASL) interpreting. My journey began in 2004 when I met my wife, a Child of Deaf Adults (CODA). Learning to communicate with her Deaf parents ignited a deep passion for ASL and Deaf culture, inspiring me to bridge communication gaps with respect and empathy.
-                    </p>
-                    <p class="mt-4 text-gray-700">
-                        Currently enrolled in ASL 4 and Intro to ASL Interpreting, I’m honing my skills in signing, interpreting ethics, and cultural competency. I’m excited to explore all facets of interpreting, from community events to professional settings, with a commitment to fostering inclusivity and understanding. This portfolio reflects my growth and dedication to becoming a skilled interpreter.
-                    </p>
+            <div class="flex justify-center mt-6">
+                <img src="images/headshot.jpg" alt="Ambrose Anaya headshot" class="photo-card w-64 h-64 rounded-full object-cover">
+            </div>
+            <p class="mt-4 text-gray-700">
+                I’m a dedicated student at College of the Sequoias, pursuing a career in American Sign Language (ASL) interpreting. My journey began in 2004 when I met my wife, Melissa, a Child of Deaf Adults (CODA). Learning to communicate with her Deaf parents ignited a deep passion for ASL and Deaf culture, inspiring me to bridge communication gaps with respect and empathy.
+            </p>
+            <p class="mt-4 text-gray-700">
+                Currently enrolled in ASL 4 and Intro to ASL Interpreting, I’m honing my skills in signing, interpreting ethics, and cultural competency. I’m excited to explore all facets of interpreting, from community events to professional settings, with a commitment to fostering inclusivity and understanding. This portfolio reflects my growth and dedication to becoming a skilled interpreter.
+            </p>
+            <h3 class="text-xl font-semibold text-teal-700 mt-6">My Family</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
+                <div class="photo-card">
+                    <img src="images/family1.jpg" alt="Family photo with Melissa and in-laws" class="w-36 h-36 mx-auto rounded object-cover">
+                </div>
+                <div class="photo-card">
+                    <img src="images/family2.jpg" alt="Family photo with Melissa and in-laws" class="w-36 h-36 mx-auto rounded object-cover">
+                </div>
+                <div class="photo-card">
+                    <img src="images/family3.jpg" alt="Family photo with Melissa and in-laws" class="w-36 h-36 mx-auto rounded object-cover">
                 </div>
             </div>
             <h3 class="text-xl font-semibold text-teal-700 mt-6">Skills</h3>
@@ -85,7 +103,7 @@
         </section>
     </main>
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>© 2025 Ambrose Anaya - ASL Interpreter Portfolio</p>
+        <p>© 2025 Ambrose Anaya - ambroseanaya.com</p>
     </footer>
 </body>
 </html>

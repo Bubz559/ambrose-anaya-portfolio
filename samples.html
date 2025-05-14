@@ -44,6 +44,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samples of Work - Ambrose Anaya's Interpreter Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .sample-card {
+            transition: transform 0.3s ease;
+        }
+        .sample-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <header class="bg-teal-700 text-white text-center py-6">
@@ -63,18 +71,37 @@
     </nav>
     <main class="max-w-4xl mx-auto p-6">
         <section>
-            <h2 class="text-2xl font-semibold text-teal-700">My Interpreting Work</h2>
+            <h2 class="text-2xl font-semibold text-teal-700">Samples of Work</h2>
             <p class="mt-4 text-gray-700">
-                Below are examples of my interpreting practice from class assignments. [Replace with your work, e.g., links to videos or descriptions of projects.]
+                Below are examples of my work from ASL courses and community engagement, showcasing my skills and dedication to interpreting.
             </p>
-            <ul class="list-disc list-inside text-gray-700 mt-4">
-                <li>Class Project: Interpreted a mock classroom lecture (video available upon request).</li>
-                <li>Gloss Assignment: Translated English sentences to ASL gloss.</li>
-            </ul>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <div class="sample-card bg-white rounded-lg shadow-md p-4 text-center">
+                    <a href="#" target="_blank">
+                        <img src="images/sample1.jpg" alt="ASL storytelling video thumbnail" class="w-32 h-32 mx-auto rounded object-contain">
+                    </a>
+                    <h3 class="text-lg font-semibold text-teal-700 mt-2">ASL 4 Storytelling Video</h3>
+                    <p class="text-gray-600">Performed a narrative in ASL, demonstrating conversational proficiency and expression.</p>
+                </div>
+                <div class="sample-card bg-white rounded-lg shadow-md p-4 text-center">
+                    <a href="#" target="_blank">
+                        <img src="images/sample2.jpg" alt="Interpreting ethics essay cover" class="w-32 h-32 mx-auto rounded object-contain">
+                    </a>
+                    <h3 class="text-lg font-semibold text-teal-700 mt-2">Interpreting Ethics Essay</h3>
+                    <p class="text-gray-600">Analyzed the RID Code of Professional Conduct for Intro to ASL Interpreting.</p>
+                </div>
+                <div class="sample-card bg-white rounded-lg shadow-md p-4 text-center">
+                    <a href="#" target="_blank">
+                        <img src="images/sample3.jpg" alt="Deaf event reflection thumbnail" class="w-32 h-32 mx-auto rounded object-contain">
+                    </a>
+                    <h3 class="text-lg font-semibold text-teal-700 mt-2">Deaf Event Reflection</h3>
+                    <p class="text-gray-600">Reflected on cultural insights from attending a Tulare Deaf community event.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>© 2025 Ambrose Anaya - ASL Interpreter Portfolio</p>
+        <p>© 2025 Ambrose Anaya - ambroseanaya.com</p>
     </footer>
 </body>
 </html>

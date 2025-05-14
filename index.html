@@ -44,24 +44,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ambrose Anaya's Interpreter Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-        }
-        .banner {
-            width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 <body class="bg-gray-100">
-    <!-- Header -->
     <header class="bg-teal-700 text-white text-center py-6">
         <h1 class="text-4xl font-bold">Ambrose Anaya's ASL Interpreter Portfolio</h1>
-        <p class="mt-2 text-lg">Bridging Communication in the Central Valley</p>
     </header>
-
-    <!-- Navigation -->
     <nav class="bg-gray-800 text-white">
         <ul class="flex justify-center space-x-4 py-4">
             <li><a href="index.html" class="hover:bg-teal-600 px-4 py-2 rounded">Home</a></li>
@@ -74,32 +61,21 @@
             <li><a href="resources.html" class="hover:bg-teal-600 px-4 py-2 rounded">Resources</a></li>
         </ul>
     </nav>
-
-    <!-- Main Content -->
     <main class="max-w-4xl mx-auto p-6">
-        <img src="https://via.placeholder.com/800x200?text=ASL+Interpreter+Banner" alt="Hands signing in ASL" class="banner rounded-lg shadow-md">
-        <section class="mt-6">
-            <h2 class="text-2xl font-semibold text-teal-700">Welcome</h2>
+        <section class="text-center">
+            <img src="images/asl-banner.jpg" alt="Hands signing in ASL" class="w-full h-64 object-cover rounded-lg mb-6">
+            <h2 class="text-2xl font-semibold text-teal-700">Welcome to My Portfolio</h2>
             <p class="mt-4 text-gray-700">
-                Welcome to my professional portfolio! I’m Ambrose Anaya, an aspiring ASL interpreter based in the Central Valley. This website showcases my journey, skills, and passion for bridging communication between the Deaf and hearing communities. Explore my work, goals, and resources to learn more about my commitment to excellence in interpreting.
+                Hello! I'm Ambrose Anaya, a Tulare, CA resident and student at College of the Sequoias, pursuing an Associate of Arts in American Sign Language. Inspired by my wife, Melissa, and my Deaf in-laws since 2004, I’m dedicated to becoming an ASL interpreter. As I prepare to transfer to Fresno State, I’m seeking a summer internship with DHHSC to serve the Deaf community. Explore my journey, skills, and aspirations through this portfolio.
             </p>
+            <div class="mt-6 flex justify-center space-x-4">
+                <a href="timeline.html" class="bg-teal-700 text-white px-4 py-2 rounded hover:bg-teal-600">View My Timeline</a>
+                <a href="resources.html" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Explore Resources</a>
+            </div>
         </section>
     </main>
-
-    <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">
-        <p>© 2025 Ambrose Anaya - ASL Interpreter Portfolio</p>
+        <p>© 2025 Ambrose Anaya - ambroseanaya.com</p>
     </footer>
-
-    <script>
-        // Smooth scroll for navigation
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetPage = this.getAttribute('href');
-                window.location.href = targetPage; // Navigate to page
-            });
-        });
-    </script>
 </body>
 </html>
