@@ -45,11 +45,18 @@
     <title>Samples of Work - Ambrose Anaya's Interpreter Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .sample-card {
-            transition: transform 0.3s ease;
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
         }
-        .sample-card:hover {
-            transform: scale(1.05);
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -71,31 +78,31 @@
     </nav>
     <main class="max-w-4xl mx-auto p-6">
         <section>
-            <h2 class="text-2xl font-semibold text-teal-700">Samples of Work</h2>
+            <h2 class="text-2xl font-semibold text-teal-700">My Work Samples</h2>
             <p class="mt-4 text-gray-700">
-                Below are examples of my work from ASL courses and community engagement, showcasing my skills and dedication to interpreting.
+                Below are some examples of my work in ASL interpreting, showcasing my progress and skills across different projects and courses.
             </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                <div class="sample-card bg-white rounded-lg shadow-md p-4 text-center">
-                    <a href="#" target="_blank">
-                        <img src="images/sample1.jpg" alt="ASL storytelling video thumbnail" class="w-32 h-32 mx-auto rounded object-contain">
-                    </a>
-                    <h3 class="text-lg font-semibold text-teal-700 mt-2">ASL 4 Storytelling Video</h3>
-                    <p class="text-gray-600">Performed a narrative in ASL, demonstrating conversational proficiency and expression.</p>
+            <div class="mt-6 space-y-8">
+                <div>
+                    <h3 class="text-lg font-semibold text-teal-700">Interpreting 'Farts Make Noise' for ASL 3</h3>
+                    <p class="text-gray-600 mt-1">A video of me interpreting a children's story, 'Farts Make Noise,' as part of my ASL 3 coursework at College of the Sequoias.</p>
+                    <div class="video-container mt-2">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/U9LmYwEd3kw?si=fTf-VquFhR_j1sVt" title="Interpreting 'Farts Make Noise' for ASL 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="sample-card bg-white rounded-lg shadow-md p-4 text-center">
-                    <a href="#" target="_blank">
-                        <img src="images/sample2.jpg" alt="Interpreting ethics essay cover" class="w-32 h-32 mx-auto rounded object-contain">
-                    </a>
-                    <h3 class="text-lg font-semibold text-teal-700 mt-2">Interpreting Ethics Essay</h3>
-                    <p class="text-gray-600">Analyzed the RID Code of Professional Conduct for Intro to ASL Interpreting.</p>
+                <div>
+                    <h3 class="text-lg font-semibold text-teal-700">Voiceover of 'Deaf Ninja' by Austin Andrews for Intro to ASL Interpreting</h3>
+                    <p class="text-gray-600 mt-1">A voiceover project for Intro to ASL Interpreting, where I provided interpretation for the video 'Deaf Ninja' by Austin Andrews.</p>
+                    <div class="video-container mt-2">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/F1MFmLAZTto?si=jkhYTuZaWS56j1wn" title="Voiceover of 'Deaf Ninja' by Austin Andrews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="sample-card bg-white rounded-lg shadow-md p-4 text-center">
-                    <a href="#" target="_blank">
-                        <img src="images/sample3.jpg" alt="Deaf event reflection thumbnail" class="w-32 h-32 mx-auto rounded object-contain">
-                    </a>
-                    <h3 class="text-lg font-semibold text-teal-700 mt-2">Deaf Event Reflection</h3>
-                    <p class="text-gray-600">Reflected on cultural insights from attending a Tulare Deaf community event.</p>
+                <div>
+                    <h3 class="text-lg font-semibold text-teal-700">Practice Presentation on Andrew Foster for ASL 4</h3>
+                    <p class="text-gray-600 mt-1">A practice video for a presentation about Andrew Foster, the 'Father of Deaf Education in Africa,' prepared for my ASL 4 class.</p>
+                    <div class="video-container mt-2">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/aL03mD7ezGU" title="Practice Presentation on Andrew Foster" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </section>
